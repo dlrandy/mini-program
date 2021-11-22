@@ -1,0 +1,16 @@
+<view class="group">
+    <icon type="success" size="45"/>
+    <icon type="info" size="45"/>
+    <icon type="warn" size="45"/>
+    <icon type="waiting" size="45"/>
+    <icon type="safe_success" size="45"/>
+    <icon type="success_circle" size="45"/>
+    <icon type="success_no_circle" size="45"/>
+    <icon type="waiting_circle" size="45"/>
+    <icon type="circle" size="45"/>
+    <icon type="download" size="45"/>
+    <icon type="info_circle" size="45"/>
+    <icon type="cancel" size="45"/>
+    <icon type="search" size="45"/>
+    <icon type="clear" size="45"/>
+</view>

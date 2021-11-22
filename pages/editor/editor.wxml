@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="page-body">
+    <editor id="editor" class="ql-container" placeholder="{{placeholder}}" bindready="onEditorReady" read-only="{{readOnly}}" bindinput="onContentChange" style="border:1px solid #cccccc;width:200px;" showImgSize showImgToolbar showImgResize>
+    </editor>
+    <view>
+      <button bindtap="clickBtn">操作</button>
+    </view>
+  </view>
+</view>

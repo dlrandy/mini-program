@@ -1,0 +1,6 @@
+<view class="section">
+  <movable-area style="height: 200px; width:100%; background: yellow;">
+    <movable-view style="height: 50px; width: 50px; background: red;" x="{{x}}" y="{{y}}" direction="all">
+    </movable-view>
+  </movable-area>
+</view>

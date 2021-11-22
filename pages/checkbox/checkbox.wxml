@@ -1,0 +1,7 @@
+<checkbox-group bindchange="checkboxChange">
+    <checkbox value="USA"/>美国
+    <checkbox value="CHN" checked="true"/>中国
+    <checkbox value="BRA"/>巴西
+    <checkbox value="JPN"/>日本
+    <checkbox value="ENG" disabled/>英国
+</checkbox-group>

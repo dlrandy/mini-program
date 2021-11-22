@@ -1,0 +1,34 @@
+<view class="section section_gap">
+  <text class="section__title">设置step</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange" step="5"/>
+  </view>
+</view>
+
+<view class="section section_gap">
+  <text class="section__title">显示当前value</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange" show-value/>
+  </view>
+</view>
+
+<view class="section section_gap">
+  <text class="section__title">设置最小/最大值</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange" min="50" max="200" show-value/>
+  </view>
+</view>
+
+<view class="section section_gap">
+  <text class="section__title">设置颜色</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange"  color="black" selected-color="red"/>
+  </view>
+</view>
+
+<view class="section section_gap">
+  <text class="section__title">禁用</text>
+  <view class="body-view">
+    <slider bindchange="sliderchange" disabled show-value/>
+  </view>
+</view>

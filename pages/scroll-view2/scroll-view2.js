@@ -1,4 +1,4 @@
-// pages/index/index.js
+// pages/scroll-view2/scroll-view2.js
 Page({
 
   /**

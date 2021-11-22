@@ -1,0 +1,7 @@
+<view class="group">
+    <icon type="success" size="20"/>
+    <icon type="success" size="50"/>
+    <icon type="success" size="60"/>
+    <icon type="success" size="80"/>
+    <icon type="success" size="100"/>
+</view>

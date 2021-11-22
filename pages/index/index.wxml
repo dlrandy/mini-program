@@ -1,23 +1,155 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <block wx:if="{{canIUseOpenData}}">
-      <view class="userinfo-avatar" bindtap="bindViewTap">
-        <open-data type="userAvatarUrl"></open-data>
-      </view>
-      <open-data type="userNickName"></open-data>
-    </block>
-    <block wx:elif="{{!hasUserInfo}}">
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
-      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
-    </block>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="item">
+  <navigator url="../view/view" open-type="navigate" hover-class="navigator-hover">view视图容器组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../scroll-view/scroll-view" open-type="navigate" hover-class="navigator-hover">scroll-view纵向滚动</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../scroll-view2/scroll-view2" open-type="navigate" hover-class="navigator-hover">scroll-view横向滚动</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../swiper/swiper" open-type="navigate" hover-class="navigator-hover">swiper海报轮播效果</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../swiper2/swiper2" open-type="navigate" hover-class="navigator-hover">swiper页签切换效果</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../movable-view/movable-view" open-type="navigate" hover-class="navigator-hover">movable-view可移动视图容器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../cover-view/cover-view" open-type="navigate" hover-class="navigator-hover">cover-view覆盖原生组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../icon/icon" open-type="navigate" hover-class="navigator-hover">icon组件绘制不同尺寸的图标</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../icon2/icon2" open-type="navigate" hover-class="navigator-hover">icon组件绘制不同类型的图标</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../icon3/icon3" open-type="navigate" hover-class="navigator-hover">icon组件绘制不同颜色的图标</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../text/text" open-type="navigate" hover-class="navigator-hover">text文本组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../progress/progress" open-type="navigate" hover-class="navigator-hover">progress进度条组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../rich-text/rich-text" open-type="navigate" hover-class="navigator-hover">rich-text富文本组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../button/button" open-type="navigate" hover-class="navigator-hover">button按钮组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../checkbox/checkbox" open-type="navigate" hover-class="navigator-hover">checkbox多项选择器组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../radio/radio" open-type="navigate" hover-class="navigator-hover">radio单项选择器组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../input/input" open-type="navigate" hover-class="navigator-hover">input单行输入框组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../textarea/textarea" open-type="navigate" hover-class="navigator-hover">textarea多行输入框组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../label/label" open-type="navigate" hover-class="navigator-hover">label组件没有定义for属性</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../label2/label2" open-type="navigate" hover-class="navigator-hover">label组件定义for属性</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../picker-selector/picker-selector" open-type="navigate" hover-class="navigator-hover">picker普通选择器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../picker-time/picker-time" open-type="navigate" hover-class="navigator-hover">picker时间选择器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../picker-date/picker-date" open-type="navigate" hover-class="navigator-hover">picker日期选择器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../picker-multiSelector/picker-multiSelector" open-type="navigate" hover-class="navigator-hover">picker多列选择器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../picker-region/picker-region" open-type="navigate" hover-class="navigator-hover">picker省市区选择器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../picker-view/picker-view" open-type="navigate" hover-class="navigator-hover">picker-view嵌入页面滚动选择器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../slider/slider" open-type="navigate" hover-class="navigator-hover">slider滑动选择器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../switch/switch" open-type="navigate" hover-class="navigator-hover">switch开关选择器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../form/form" open-type="navigate" hover-class="navigator-hover">form表单组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../editor/editor" open-type="navigate" hover-class="navigator-hover">editor富文本编辑器</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../index2/index2" open-type="navigate" hover-class="navigator-hover">navigator页面链接组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../audio/audio" open-type="navigate" hover-class="navigator-hover">audio音频组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../image/image" open-type="navigate" hover-class="navigator-hover">image图片组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../video/video" open-type="navigate" hover-class="navigator-hover">video视频组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../camera/camera" open-type="navigate" hover-class="navigator-hover">camera相机组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../live-player/live-player" open-type="navigate" hover-class="navigator-hover">live-player实时音视频播放</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../live-pusher/live-pusher" open-type="navigate" hover-class="navigator-hover">live-pusher实时音视频录制</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../map/map" open-type="navigate" hover-class="navigator-hover">map地图组件</navigator>
+</view>
+
+<view class="item">
+  <navigator url="../canvas/canvas" open-type="navigate" hover-class="navigator-hover">canvas画布组件</navigator>
 </view>

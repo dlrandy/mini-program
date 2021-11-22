@@ -1,4 +1,4 @@
-// pages/index/index.js
+// pages/icon2/icon2.js
 Page({
 
   /**

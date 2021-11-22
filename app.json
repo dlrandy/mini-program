@@ -1,14 +1,71 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/view/view",
+    "pages/scroll-view/scroll-view",
+    "pages/scroll-view2/scroll-view2",
+    "pages/swiper/swiper",
+    "pages/swiper2/swiper2",
+    "pages/movable-view/movable-view",
+    "pages/cover-view/cover-view",
+    "pages/icon/icon",
+    "pages/icon2/icon2",
+    "pages/icon3/icon3",
+    "pages/text/text",
+    "pages/progress/progress",
+    "pages/rich-text/rich-text",
+    "pages/button/button",
+    "pages/checkbox/checkbox",
+    "pages/radio/radio",
+    "pages/input/input",
+    "pages/textarea/textarea",
+    "pages/label/label",
+    "pages/label2/label2",
+    "pages/picker-selector/picker-selector",
+    "pages/picker-time/picker-time",
+    "pages/picker-date/picker-date",
+    "pages/picker-multiSelector/picker-multiSelector",
+    "pages/picker-region/picker-region",
+    "pages/picker-view/picker-view",
+    "pages/slider/slider",
+    "pages/switch/switch",
+    "pages/form/form",
+    "pages/editor/editor",
+    "pages/index2/index2",
+    "pages/navigator/navigator",
+    "pages/redirect/redirect",
+    "pages/me/me",
+    "pages/audio/audio",
+    "pages/image/image",
+    "pages/video/video",
+    "pages/camera/camera",
+    "pages/live-player/live-player",
+    "pages/live-pusher/live-pusher",
+    "pages/map/map",
+    "pages/canvas/canvas"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#008B00",
+    "navigationBarTitleText": "演示",
+    "navigationBarTextStyle": "white"
   },
-  "style": "v2",
+  "tabBar": {
+    "selectedColor": "red",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/bar/find-0.jpg",
+        "selectedIconPath": "/images/bar/find-1.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/bar/me-0.jpg",
+        "selectedIconPath": "/images/bar/me-1.jpg"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json"
 }

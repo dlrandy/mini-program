@@ -1,0 +1,7 @@
+<radio-group class="radio-group" bindchange="radioChange">
+    <radio value="USA" />美国
+    <radio value="CHN" checked/>中国
+    <radio value="BRA" disabled/>巴西
+    <radio value="JPN" />日本
+    <radio value="ENG" />英国
+</radio-group>

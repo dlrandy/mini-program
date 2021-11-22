@@ -1,0 +1,3 @@
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+
+<rich-text  nodes="<h1>我爱你中国</h1>"></rich-text>

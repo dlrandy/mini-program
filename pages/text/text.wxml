@@ -1,0 +1,7 @@
+<view class="btn-area">
+  <view class="body-view">
+    <text>我爱北京\t我爱中国</text>
+    <text>我爱北京\n我爱中国</text>
+  </view>
+  
+</view>

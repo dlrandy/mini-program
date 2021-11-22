@@ -1,0 +1,22 @@
+<view class="section">
+  <view class="section__title">新闻频道横向滚动</view>
+   <scroll-view scroll-x="true" style="width: 100%;">
+    <view style="display:flex;flex-direction:row">
+      <view style="margin-right:10px;">推荐</view>
+      <view style="margin-right:10px;">视频</view>
+      <view style="margin-right:10px;">热点</view>
+      <view style="margin-right:10px;">本地</view>
+      <view style="margin-right:10px;">社会</view>
+      <view style="margin-right:10px;">娱乐</view>
+      <view style="margin-right:10px;">科技</view>
+      <view style="margin-right:10px;">汽车</view>
+      <view style="margin-right:10px;">体育</view>
+      <view style="margin-right:10px;">财经</view>
+       <view style="margin-right:10px;">军事</view>
+      <view style="margin-right:10px;">国际</view>
+      <view style="margin-right:10px;">时尚</view>
+      <view style="margin-right:10px;">游戏</view>
+      <view style="margin-right:10px;">美文</view>
+    </view>
+  </scroll-view>
+</view>

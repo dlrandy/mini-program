@@ -1,0 +1,4 @@
+/* pages/view/view.wxss */
+.touming{
+  opacity: 0.4;
+}

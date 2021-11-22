@@ -1,0 +1,16 @@
+<view class="section">
+  <view class="section__title">水平方向布局：</view>
+  <view class="flex-wrp" style="display:flex;flex-direction:row;">
+    <view hover-class="touming" class="flex-item bc_green" style="width:100px;height:100px;background-color:green;color:#ffffff;text-align:center;line-height:100px;">1</view>
+    <view class="flex-item bc_red" style="width:100px;height:100px;background-color:red;color:#ffffff;text-align:center;line-height:100px;">2</view>
+    <view class="flex-item bc_blue" style="width:100px;height:100px;background-color:blue;color:#ffffff;text-align:center;line-height:100px;">3</view>
+  </view>
+</view>
+<view class="section">
+  <view class="section__title">垂直方向布局：</view>
+  <view class="flex-wrp" style="display:flex;height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green" style="width:100px;height:100px;background-color:green;color:#ffffff;text-align:center;line-height:100px;">1</view>
+    <view class="flex-item bc_red" style="width:100px;height:100px;background-color:red;color:#ffffff;text-align:center;line-height:100px;">2</view>
+    <view class="flex-item bc_blue" style="width:100px;height:100px;background-color:blue;color:#ffffff;text-align:center;line-height:100px;">3</view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<label for="man">
+   <button id="btn" bindtap="clickBtn" hidden>我是button按钮</button>
+   <view>我是label组件内的内容</view>
+   <checkbox-group bindchange="checkboxChange" id="checkbox">
+      <checkbox value="中国" />中国
+      <checkbox value="美国" />美国
+   </checkbox-group>
+   <radio-group bindchange="radioChange" >
+      <radio id="man" value="男"/>男
+      <radio id="women" value="女"/>女
+   </radio-group>
+</label>
